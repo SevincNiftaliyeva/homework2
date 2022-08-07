@@ -1,0 +1,202 @@
+* {
+ 
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    font-size: 25px;
+}
+body{
+    background-image: url(./images/concrete_seamless.png);
+}
+.header{
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+    text-align: center; 
+}
+.name{
+    height: 90px;
+    color: #fff;
+    background-color: #4aaaa5;
+     width: 14%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 320px;
+}
+.nav{
+ align-items: center;
+ justify-content: flex-start;
+   font-size: 18px;
+  text-align: center ;
+    padding-top: 30px;
+   width: 900px;
+}
+.nav a:first-child{
+    border-left: 0 none;
+}
+.nav a{
+     padding-left: 15px;
+     margin-left: 15px;
+    color: #999;
+    line-height: 18px;
+    border-left: 2px solid #efefef;
+    font-size: 20px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.section{
+    width: 65%;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.imgsection img{
+    width: 200px;
+    height: 150px;
+    margin-left: 10px;
+   
+}
+.section h2{
+    /*  */
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: 2px solid #999;
+}
+.imgsection{
+    display: flex;
+    gap: 9px;
+    padding-bottom: 20px;
+    margin-top: 20px; 
+}
+.imgsection p,.section p{  
+    color: #777;
+}
+.article{
+    width: 30%;
+    height: 200px;
+background-color: #fff;  
+text-align: center;  
+}
+.connect{
+    height: 30%;
+   /* display: flex; */
+   text-align: center;
+   padding-left: px;
+  
+
+}
+.connect h2{
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border-bottom: 2px solid #999;
+    /* width: 99%; */
+ 
+}
+.img{
+    display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   gap: 3px;
+}
+.img img{
+    height: 70%;
+    width: 70%;
+}
+.article h2{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+.footer{
+    position: absolute;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    text-align: center; 
+    color: #ccc;
+    text-align: center;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 150px;
+}
+.copyright{
+    padding: 40px;
+    font-size: 15px;
+}
+/* contact */
+.section label{
+    color: #777;
+}
+.section textarea{
+    height: 200px;
+}
+.section button{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    width: 110px;
+    margin: 10px 0;
+}
+/* portfolio */
+.images img {
+width: 270px;
+height: 200px;
+}
+.sectionp{
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    margin-right: 5px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.sectionp h2{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: 2px solid #999;
+}
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 99%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+}
+.section label{
+    font-size: 18px;
+    margin-top: 20px;
+}
+ input {
+    font-size: 15px;
+    padding: 5px 0 5px 10px;
+   
+}
