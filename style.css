@@ -153,12 +153,16 @@ text-align: center;
     margin: 10px 0;
 }
 /* portfolio */
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
 .images img {
 width: 270px;
 height: 200px;
 }
 .sectionp{
-    float: left;
+    
     width: 100%;
     max-width: 650px;
     padding: 30px;
